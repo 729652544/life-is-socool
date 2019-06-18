@@ -439,22 +439,18 @@ export default {
 
       onChange(){
         this.isShowElBtn=false
-        this.data = digui(this.data);
-        console.log("this.data",this.data);
+        let data = digui(this.data);
+        console.log("data",data);
         //方法
         function digui(dataUse) {
-
-          if(dataUse.length==0){
-            return dataUse;
-          }
-          else {
-            for(var i = 0;i<dataUse.length;i++){
-              dataUse.disabled = !dataUse.disabled;
-              if(dataUse[i].children){
-                return dataUse[i];
+          for(var i = 0;i<dataUse.length;i++){
+            dataUse[i].disabled = false;
+            if (dataUse[i].children!=undefined) {
+              if(dataUse[i].children.length>0){
+                digui(dataUse[i].children);
               }
               else {
-                digui(dataUse[i]);
+                dataUse[i];
               }
             }
 
