@@ -1,0 +1,567 @@
+.scheduleMap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#mapField{
+    width: 100%;
+    height: 100%;
+    
+}
+.searchBox{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 360px;
+    max-width: 406px;
+    box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+}
+.searchLeft{
+    background: #ffffff;
+    height: 40px;
+    width: 87%;
+    float: left;
+    position: relative;
+}
+.searchRight{
+    background: #ffffff;
+    height: 40px;
+    width: 13%;
+    float: left;
+    cursor: pointer;
+    color: #9e9e9e;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+}
+.searchRight .iconfont{
+    font-size: 16px;
+}
+.searchRight .iconfont:hover{
+    color: #1081fa;
+}
+.searchText{
+    width: 75%;
+    height: 100%;
+    border: 0px;
+    padding-right: 10px;
+    text-indent: 13px;
+    font-size: 14px;
+    float: left;
+}
+.searchText:focus{
+    border:none;
+    outline: none;
+}
+.roadIcon{
+    color: #1081fa;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 22px;
+    line-height: 40px;
+}
+.resultList{
+    margin-top: 5px;
+    background: #ffffff;
+    min-height: 40px;
+    max-height: 310px;
+    overflow-y: auto;
+    width: 360px;
+    float: left;
+    position: relative;
+    border-radius: 2px;
+    padding: 5px 0px;
+    box-shadow: -2px 1px 9px 0px rgba(4, 3, 3, 0.16);
+}
+.perResult{
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    color: #716f6f;
+    padding: 0px 10px;
+}
+.perResult:hover{
+    background-color: #eaf1fb;
+}
+.perResult:hover .rightInfo .rBtn{
+    opacity:1;
+}
+.perResult:hover .leftIcon .iconfont{
+    color: #1081fa;
+}
+.leftIcon{
+    height: 60px;
+    line-height: 40px;
+    width:25px;;
+    float: left;
+    text-align: left;
+} 
+.leftIcon .iconfont{
+    color: #f54336;
+    font-size: 20px;
+}
+.rightInfo{
+    width: calc(100% - 25px);
+    float: right;
+    position: relative;
+}
+ .rightInfo .title{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 25px;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 100px);
+ }
+ .rightInfo .stitle{
+    display: inline-block;
+    width: calc(100% - 80px);
+    font-size: 12px;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #b0adb0;
+    line-height: 20px;
+ }
+ .rightInfo .rBtn{
+    width: 73px;
+    height: 27px;
+    font-size: 14px;
+    border: 1px solid #1081fa;
+    display: inline-block;
+    color: #1081fa;
+    text-align: center;
+    line-height: 27px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -13px;
+    margin-right: 5px;
+    opacity: 0;
+    transition: all .3s;
+    border-radius: 2px;
+ }
+ .rightInfo .rBtn:hover{
+    color: #ffffff;
+    background: #1081fa;
+ }
+ .fCheckField{
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 10px;
+    width: 300px;
+    height: 40px;
+    line-height:30px;
+    background: #ffffff;
+    box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+    text-align: center;
+ }
+ .perCheck{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    color: #1081fa;
+    cursor: pointer;
+ }
+ .perCheck.active{
+     background: #1081fa;
+     color: #ffffff;
+ }
+ .perCheck:first-child{
+    border-right: 1px solid #dcdcdc;
+ }
+ /* .perCheck .iconfont{
+     color: #919191;
+ } */
+ .perCheck .el-checkbox{
+    color: #919191;
+ }
+ .perCheck .iconfont {
+     font-size: 14px
+ }
+ .currentTaskFiled {
+    position: absolute;
+    top: 10px;
+    right:15px;
+    overflow: hidden;
+    width: 30.4%;
+    max-width: 406px;
+ }
+ .scheduleListField{
+    font-size: 14px;
+ }
+ .maintainListField{
+     margin-top: 4px;
+    font-size: 14px;
+ }
+ .itemList {
+     width: 100%;
+     max-height: 123px;
+     overflow-y: auto;
+ }
+ .currentTask{
+     width: 100%;
+     height: 40px;
+     background-color: rgba(0, 0, 0, 0.7);
+     margin-bottom: 1px;
+     cursor: pointer;
+     color: #ffffff;
+     font-size: 14px;
+     padding:0px 10px;
+ }
+ .currentTask:hover{
+    font-weight: 550;
+ }
+ .historyTask{
+     width: 100%;
+     height: 30px;
+     background-color: rgba(0, 0, 0, 0.8);
+     padding:0px 10px;
+     border-bottom: 1px solid #000;
+ }
+ .currentTask div{
+     display: inline-block;
+     float: left;
+     height: 100%;
+     line-height: 40px;
+     text-align: center;
+     position: relative;
+ }
+ .currentTask .status{
+     width: 15%;
+ }
+ .currentTask .statusBox{
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 2px;
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -25px;
+    color: #ffffff;
+ }
+.currentTask .redBox{
+    background-color: #fc0707;
+}
+.currentTask .greenBox{
+    background-color:#00ff00;
+}
+.currentTask .orangeBox{
+    background-color:#f4a71d;
+}
+.currentTask .blueBox{
+    background-color:#1081fa;
+}
+ .currentTask .time{
+     width: 15%;
+ }
+ .currentTask .group {
+     width: 20%;
+ }
+  .currentTask .site{
+     width: 50%;
+     word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;  
+    text-overflow:ellipsis;
+ }
+ .hisLink .toScheduleList{
+     color: #fcac36;
+     display: inline-block;
+     line-height: 30px;
+     font-size: 12px;
+     float: right;
+     cursor: pointer;
+ }
+ .hisLink .scheduleList {
+     float: left;
+     color: #ffffff;
+     display: inline-block;
+     line-height: 30px;
+     font-size: 12px;
+ }
+ .hisLink .toScheduleList:hover{
+    font-weight: bold;
+}
+.hisLink .iconfont {
+    font-size: 12px;
+    margin-right: 3px;
+}
+ .taskDialog{
+     width: 630px;
+     height: 540px;
+     position: absolute;
+     top: 50%;
+    left:50%;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-left: -300px;
+    margin-top:-270px;
+    background: #ffffff; 
+    z-index: 10;
+    box-shadow: 1px 2px 9px 0px 
+    rgba(155, 152, 152, 0.63);
+    padding-top: 50px;
+ }
+ .dgHeader{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    color: #333333;
+    font-size: 14px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid #e5e5e5;
+ }
+ .dialogContent{
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+ }
+ .closeIcon{
+    float: right;
+    cursor: pointer;
+    font-size: 14px;
+ }
+ .closeIcon:hover{
+     color: #1081fa;
+ }
+ .operField{
+     height: 30px;
+ }
+.taskDialog ul{
+    width: 100%;
+    /* height: 28px; */
+    line-height: 28px;
+    padding: 10px;
+    color: #666;
+}
+.taskDialog ul>li{
+    background:#ffffff;
+    display: block;
+    min-height:35px;
+}
+.taskDialog ul>li>span{
+    display: inline-block;
+    float: left;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;  
+    text-overflow:ellipsis;
+    height:35px;
+    font-size: 12px
+}
+.taskDialog ul>li>span:nth-child(1){
+    text-indent: 10px;
+    width: 12.5%;
+    text-align: right;
+    color: #333333;
+}
+.taskDialog ul>li>span:nth-child(2){
+    width: 37.5%;
+    text-align: left;
+    border-right: 1px solid #e5e5e5;
+    color: #666666;
+}
+.taskDialog ul>li>span:nth-child(3){
+    text-indent: 10px;
+    width: 12.5%;
+    text-align: right;
+    color: #333333;
+}
+.taskDialog ul>li>span:nth-child(4){
+    width: 37.5%;
+    text-align: left;
+    color: #666666;
+}
+.dialogBtnField{
+    text-align: left;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+.imgShow{
+    width: 150px;
+    height: 120px;
+    margin: 10px 10px 0px 0px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.unManage{
+    color: #d9030e;
+}
+.managing{
+    color: #1081fa;
+}
+.unReAssign{
+    color: #fc5830;
+}
+.complete{
+    color: #828282;
+}
+.backout{
+    color: #cdcccc;
+}
+.roadOrNum{
+    float: left;
+    line-height: 40px;
+    padding-left: 5px;
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+    border-right:1px solid #f6f6f6;
+}
+.carDialog{
+    width:630px;
+    min-height:250px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size: 14px;
+    border-radius: 2px;
+    /* padding: 10px; */
+    margin-left: -315px;
+    margin-top: -200px;
+    background: #ffffff; 
+    box-shadow: 1px 2px 9px 0px 
+    rgba(155, 152, 152, 0.63);
+    padding-top:50px;
+}
+.carDialog>ul{
+    width: 100%;
+    line-height: 28px;
+    padding: 15px;
+    color: #666;
+}
+.carDialog>ul>li{
+    background:#ffffff;
+    display: block;
+    min-height:35px;
+}
+.carDialog>ul>li>span{
+    display: inline-block;
+    float: left;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;  
+    text-overflow:ellipsis;
+    height:35px;
+}
+.carDialog>ul>li>span:nth-child(1){
+    text-indent: 10px;
+    width: 18%;
+    text-align: right;
+    color: #333333;
+}
+.carDialog>ul>li>span:nth-child(2){
+    width: 32%;
+    text-align: left;
+    border-right: 1px solid #e5e5e5;
+    color: #666666;
+}
+.carDialog>ul>li>span:nth-child(3){
+    text-indent: 10px;
+    width: 18%;
+    text-align: right;
+    color: #333333;
+}
+.carDialog>ul>li>span:nth-child(4){
+    width: 32%;
+    text-align: left;
+    color: #666666;
+}
+.carDialog>ul>li:last-child>span:nth-child(2){
+    border-right: none;
+}
+.carStatus{
+    color: #1081fa;
+}
+.carBox{
+    width: 80%!important;
+    overflow: visible!important;
+    height: auto!important;
+    margin-bottom: 10px!important;
+}
+.perCarTask{
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.carTaskp{
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;  
+    text-overflow:ellipsis;
+    display: inline-block;
+    float: left;
+    max-width: calc(100% - 130px);
+}
+.carTaskIcon{
+    cursor: pointer;
+    color: #1081fa;
+}
+.carTaskIcon .iconfont{
+    color: #fc5830;
+}
+.operIcon{
+    display: inline-block;
+    float: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid ;
+    text-align: center;
+    color: #1081fa;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .operIcon:hover{
+     background: #1081fa;
+     color: #ffffff;
+ }
+.blackoutForm .el-input{
+    width: 100%;
+} 
+.searchNoData{
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+.dialog-footer{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+.dialog-footer>.confirmBtn{
+    width: 100%;
+}
+.unbuilt {
+    padding: 10px 10px;
+}
+.unbuilt>img {
+    width: 90px;
+    height: 80px;
+}
+.imgShow{
+    width: 128px;
+    height: 104px;
+    margin: 10px 10px 0px 0px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+}

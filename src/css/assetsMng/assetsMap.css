@@ -1,0 +1,348 @@
+.assetsMap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#assetsMapField {
+  width: 100%;
+  height: 100%;
+}
+
+.topBox {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+}
+
+.searchBox {
+  width: 360px;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+  box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+}
+
+.searchLeft {
+  background: #ffffff;
+  height: 40px;
+  width: 87%;
+  float: left;
+  position: relative;
+}
+
+.searchRight {
+  background: #ffffff;
+  height: 40px;
+  width: 13%;
+  float: left;
+  cursor: pointer;
+  color: #9e9e9e;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+}
+
+.searchRight .iconfont {
+  font-size: 16px;
+}
+
+.searchRight .iconfont:hover {
+  color: #1081fa
+}
+
+.searchText {
+  width: 75%;
+  height: 100%;
+  border: 0px;
+  padding-right: 10px;
+  text-indent: 13px;
+  font-size: 14px;
+  float: left;
+}
+
+.searchText:focus {
+  border: none;
+  outline: none;
+}
+
+.roadOrNum {
+  float: left;
+  line-height: 40px;
+  padding-left: 5px;
+  text-align: center;
+  width: 25%;
+  border-right:1px solid #f6f6f6;
+}
+
+.viewBox {
+  width: 260px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -180px;
+}
+
+.perView {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.perView .iconfont {
+  font-size: 14px !important;
+  margin-right: 10px;
+  color:#909399;
+}
+
+.perView:hover {
+  color: #1081fa;
+}
+
+.perView.active,.perView.active .iconfont {
+  background: #1081fa;
+  color: #ffffff;
+}
+
+.assetsType {
+  width: 320px;
+  height: 40px;
+  background-color: #ffffff;
+  -webkit-box-shadow:0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+  box-shadow:0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.assetsType .perType {
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+  border-left: 1px solid #d2d2d2;
+}
+
+/* .assetsType .perType:hover{
+    color: #268dfc;
+} */
+
+.assetsType .perType:first-child {
+  border-left: none;
+}
+
+.assetsType .perType:hover {
+  color: #1081fa;
+}
+
+.assetsType .perType.active {
+  color: #fff;
+  background: #1081fa;
+}
+.exportField{
+  height: 40px;
+  background: #ffffff;
+  border:1px solid #d2d2d2;
+  padding: 0px 15px;
+  line-height: 36px;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 5px;
+  float: right;
+}
+.exportField .iconfont{
+  padding-left: 10px;
+  cursor: pointer;
+}
+.exportField .excle{
+  color: #207245;
+}
+.breadBox {
+  min-width: 200px;
+  height: 40px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+  box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  line-height: 40px;
+  color: #333333;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+.backToInit {
+  height: 40px;
+  display: inline-block;
+  margin-left: 10px;
+  float: left;
+  font-size: 14px;
+}
+
+.backToInit .iconfont {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.infoOpen {
+  width: 40px;
+  height: 40px;
+  background-color: #1081fa;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+    box-shadow: 0px 0px 3px 0px rgba(66, 67, 67, 0.57);
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.infoOpen,
+.iconfont {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resultList {
+  margin-top: 5px;
+  background: #ffffff;
+  min-height: 40px;
+  width: 360px;
+  float: left;
+  position: relative;
+  border-radius: 2px;
+  padding: 5px 0px;
+  box-shadow: -2px 1px 9px 0px rgba(4, 3, 3, 0.16);
+}
+
+.searchNoData {
+  line-height: 70px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+.perResult {
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  color: #716f6f;
+  padding: 0px 10px;
+}
+
+.perResult:hover {
+  background-color: #eaf1fb;
+}
+
+.perResult:hover .rightInfo .rBtn {
+  opacity: 1;
+}
+
+.perResult:hover .leftIcon .iconfont {
+  color: #1081fa;
+}
+
+.leftIcon {
+  height: 60px;
+  line-height: 40px;
+  width: 25px;
+  ;
+  float: left;
+  text-align: left;
+}
+
+.leftIcon .iconfont {
+  color: #f54336;
+  font-size: 20px;
+}
+
+.rightInfo {
+  width: calc(100% - 25px);
+  float: right;
+  position: relative;
+}
+
+.rightInfo .title {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 25px;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100% - 100px);
+}
+
+.rightInfo .stitle {
+  display: inline-block;
+  width: calc(100% - 80px);
+  font-size: 12px;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #b0adb0;
+  line-height: 20px;
+}
+
+.rightInfo .rBtn {
+  width: 73px;
+  height: 27px;
+  font-size: 14px;
+  border: 1px solid #1081fa;
+  display: inline-block;
+  color: #1081fa;
+  text-align: center;
+  line-height: 27px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -13px;
+  margin-right: 5px;
+  opacity: 0;
+  transition: all .3s;
+  border-radius: 2px;
+}
+
+.rightInfo .rBtn:hover {
+  color: #ffffff;
+  background: #1081fa;
+}
+
+.breadHead {
+  float: left;
+}
+
+.breadItems {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.breadItems .breadText {
+  cursor: pointer;
+  color: #333;
+}
+
+.breadItems .breadText:hover {
+  color: #1081fa;
+}

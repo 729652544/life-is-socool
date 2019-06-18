@@ -1,0 +1,133 @@
+[
+
+  {
+  "id": "13",
+  "name": "管理中心",
+  "parent": "b100013",
+  "url": "/setUp",
+  "icon": "icon-icon_set_up",
+  "isShow": 0,
+  "children": [
+    {
+      "id": "1",
+      "name": "权限管理",
+      "url": "",
+      "icon": "el-icon-location",
+      "isShow": 0,
+      "children": [
+        {
+          "id": "b103_01",
+          "name": "组织架构",
+          "url": "/systemHome",
+          "isShow": 0,
+          "listName": [
+            "orgStructure"
+          ]
+        },
+        {
+          "id": "b103_03",
+          "name": "角色管理",
+          "url": "/systemHome/roleManagement",
+          "isShow": 0,
+          "listName": [
+            "roleManagement"
+          ]
+        },
+        {
+          "id": "b103_02",
+          "name": "用户管理",
+          "url": "/systemHome/userManagement",
+          "isShow": 0,
+          "listName": [
+            "userManagement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "个人管理",
+      "url": "/systemHome/perInfo",
+      "icon": "icon-jilu",
+      "isShow": 0,
+      "children": [
+        {
+          "id": "2-1",
+          "name": "基本信息",
+          "url": "/systemHome/perInfo",
+          "isShow": 1,
+          "listName": [
+            "perInfo"
+          ]
+        },
+        {
+          "id": "2-2",
+          "name": "修改密码",
+          "url": "/systemHome/modefiyPassword",
+          "listName": [
+            "modefiyPassword"
+          ],
+          "isShow": 1
+        }
+      ]
+    },
+    {
+      "id": "b103_06",
+      "name": "字典管理",
+      "url": "/systemHome/dictionaryMng",
+      "icon": "icon-changguizidian",
+      "isShow": 0,
+      "listName": [
+        "dictionaryMng"
+      ]
+    },
+    {
+      "id": "b103_04",
+      "name": "模型管理",
+      "url": "/systemHome/modelMng/res",
+      "icon": "icon-moxing",
+      "isShow": 0,
+      "listName": [
+        "modelMng",
+        "modelAttr",
+        "modelInfo",
+        "attrInfo"
+      ]
+    },
+    {
+      "id": "b103_05",
+      "name": "维度管理",
+      "url": "/systemHome/dimensionMng",
+      "icon": "icon-duoweiduziyoupouxi",
+      "isShow": 0,
+      "listName": [
+        "dimensionMng"
+      ]
+    },
+    {
+      "id": "b103_07",
+      "name": "资源管理",
+      "url": "/systemHome/resourceMng/model/1",
+      "icon": "icon-msnui-report",
+      "isShow": 0,
+      "listName": [
+        "resourceMng",
+        "resourceInfo",
+        "resourceText"
+      ]
+    },
+    {
+      "id": "b103_08",
+      "name": "套件管理",
+      "url": "/systemHome/materialSuiteMng/materialSuiteInfo",
+      "icon": "icon-wuliaoguanli",
+      "isShow": 0,
+      "listName": [
+        "materialSuiteInfo",
+        "materialEdit"
+      ]
+    }
+  ]
+}
+
+]

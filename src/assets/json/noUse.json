@@ -1,0 +1,824 @@
+
+    [
+      {
+        "id": "b1011",
+        "name": "车载巡查",
+        "parent": "b10001",
+        "url": "/vehicle",
+        "icon": "icon-s_ic_xcrw",
+        "isShow": 0,
+        "children": [
+            {
+                "id": "b1011_01",
+                "name": "车载巡检",
+                "url": "/vehicle/routintInsprctionList",
+                "icon": "icon-xunjian",
+                "isShow": 0,
+                "listName": [
+                    "routintInsprctionList",
+                    "routintInsprctionInfo"
+                ]
+            },
+            {
+                "id": "b1011_02",
+                "name": "车载统计",
+                "url": "/vehicle/countReport",
+                "icon": "icon-xiaoxi",
+                "isShow": 0,
+                "listName": [
+                    "countReport",
+                    "insAssetNum"
+                ]
+            }
+        ]
+    },
+      {
+        "id": "b104_12",
+        "name": "资源目录",
+        "url": "/document",
+        "icon": "icon-ziyuan1",
+        "isShow": 1,
+        "children": [
+            {
+                "id": "b104_12_01",
+                "name": "文档总览",
+                "url": "/document/resDirectorySearch",
+                "isShow": 1,
+                "listName": [
+                    "resDirectorySearch"
+                ]
+            },
+            {
+                "id": "b104_12_02",
+                "name": "我的文档",
+                "url": "/document/resDirectoryMine",
+                "listName": [
+                    "resDirectoryMine"
+                ],
+                "isShow": 1
+            }
+        ]
+    },
+    {
+        "id": "b103_16",
+        "name": "导航管理",
+        "url": "/systemHome/navMng",
+        "icon": "icon-changguizidian",
+        "isShow": 1,
+        "listName": [
+            "navMng",
+            "navAdd",
+            "navInfo"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "文档管理",
+        "url": "/systemHome/documentTreeManager",
+        "icon": "el-icon-tickets",
+        "isShow": 0,
+        "children": [
+            {
+                "id": "b103_12_01",
+                "name": "目录设置",
+                "url": "/systemHome/documentTreeManager",
+                "isShow": 0,
+                "listName": [
+                    "documentTreeManager"
+                ]
+            },
+            {
+                "id": "b103_12_02",
+                "name": "标签设置",
+                "url": "/systemHome/documentLabelManager",
+                "isShow": 0,
+                "listName": [
+                    "documentLabelManager"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b103_09",
+        "name": "供应商管理",
+        "url": "/systemHome/SupplierMng/SupplierList",
+        "icon": "icon-wuliaoguanli",
+        "isShow": 1,
+        "listName": [
+            "SupplierList",
+            "NewSupplier"
+        ]
+    },
+    {
+        "id": "b103_10",
+        "name": "物料设置",
+        "url": "/systemHome/storehouseMng/materielMng",
+        "icon": "icon-wuliaoguanli",
+        "isShow": 1,
+        "listName": [
+            "materielInfo",
+            "materielText",
+            "materielMng"
+        ]
+    },
+    {
+        "id": "b103_11",
+        "name": "仓库设置",
+        "url": "/systemHome/storehouseMng/warehouseMng",
+        "icon": "icon-wuliaoguanli",
+        "isShow": 1,
+        "listName": [
+            "warehouseMng",
+            "createWarehouse"
+        ]
+    }
+]
+
+
+
+    {
+      "id": "1",
+      "name": "控制面板",
+      "parent": "b10001",
+      "url": "1",
+      "icon": "icon-yidongduanicon-",
+      "isShow": 0,
+      "children": [
+        {
+          "id": "1",
+          "name": "权限管理",
+          "url": "2",
+          "icon": "el-icon-location",
+          "isShow": 0,
+          "children": [
+            {
+              "id": "b103_01",
+              "name": "组织架构",
+              "url": "/systemHome",
+              "isShow": 0,
+              "listName": [
+                "orgStructure"
+              ]
+            },
+            {
+              "id": "b103_03",
+              "name": "角色管理",
+              "url": "/systemHome/roleManagement",
+              "isShow": 0,
+              "listName": [
+                "roleManagement"
+              ]
+            },
+            {
+              "id": "b103_02",
+              "name": "用户管理",
+              "url": "/systemHome/userManagement",
+              "isShow": 0,
+              "listName": [
+                "userManagement"
+              ]
+            }
+          ]
+        }
+
+      ]    },
+    {
+    "id": "2",
+    "name": "境内保险",
+    "parent": "b10002",
+    "url": "",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]  },
+    {
+    "id": "3",
+    "name": "出境保险",
+    "parent": "b10003",
+    "url": "3",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]},
+    {
+    "id": "4",
+    "name": "签证保险",
+    "parent": "b10004",
+    "url": "4",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]},
+    {
+    "id": "5",
+    "name": "航意航延",
+    "parent": "b10005",
+    "url": "5",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]},
+    {
+    "id": "6",
+    "name": "意外及健康",
+    "parent": "b10006",
+    "url": "6",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]},
+    {
+    "id": "7",
+    "name": "保单管理",
+    "parent": "b10007",
+    "url": "7",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    },
+    {
+    "id": "2",
+    "name": "个人管理",
+    "url": "/systemHome/perInfo",
+    "icon": "icon-jilu",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "2-1",
+    "name": "基本信息",
+    "url": "/systemHome/perInfo",
+    "isShow": 1,
+    "listName": [
+    "perInfo"
+    ]
+    },
+    {
+    "id": "2-2",
+    "name": "修改密码",
+    "url": "/systemHome/modefiyPassword",
+    "listName": [
+    "modefiyPassword"
+    ],
+    "isShow": 1
+    }
+    ]
+    },
+    {
+    "id": "b103_06",
+    "name": "字典管理",
+    "url": "/systemHome/dictionaryMng",
+    "icon": "icon-changguizidian",
+    "isShow": 0,
+    "listName": [
+    "dictionaryMng"
+    ]
+    },
+    {
+    "id": "b103_04",
+    "name": "模型管理",
+    "url": "/systemHome/modelMng/res",
+    "icon": "icon-moxing",
+    "isShow": 0,
+    "listName": [
+    "modelMng",
+    "modelAttr",
+    "modelInfo",
+    "attrInfo"
+    ]
+    },
+    {
+    "id": "b103_05",
+    "name": "维度管理",
+    "url": "/systemHome/dimensionMng",
+    "icon": "icon-duoweiduziyoupouxi",
+    "isShow": 0,
+    "listName": [
+    "dimensionMng"
+    ]
+    },
+    {
+    "id": "b103_07",
+    "name": "资源管理",
+    "url": "/systemHome/resourceMng/model/1",
+    "icon": "icon-msnui-report",
+    "isShow": 0,
+    "listName": [
+    "resourceMng",
+    "resourceInfo",
+    "resourceText"
+    ]
+    },
+    {
+    "id": "b103_08",
+    "name": "套件管理",
+    "url": "/systemHome/materialSuiteMng/materialSuiteInfo",
+    "icon": "icon-wuliaoguanli",
+    "isShow": 0,
+    "listName": [
+    "materialSuiteInfo",
+    "materialEdit"
+    ]
+    }
+    ]
+    },
+    {
+    "id": "8",
+    "name": "移动分销",
+    "parent": "b10008",
+    "url": "8",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]},
+    {
+    "id": "9",
+    "name": "销售管理",
+    "parent": "b10009",
+    "url": "9",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]
+    },
+    {
+    "id": "10",
+    "name": "理赔中心",
+    "parent": "b10001",
+    "url": "/",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]
+    },
+    {
+    "id": "11",
+    "name": "财务中心",
+    "parent": "b100011",
+    "url": "11",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]
+    },
+    {
+    "id": "12",
+    "name": "后台处理",
+    "parent": "b100012",
+    "url": "12",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]
+    },
+    {
+    "id": "14",
+    "name": "权限管理",
+    "parent": "b100014",
+    "url": "14",
+    "icon": "icon-shezhi",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "1",
+    "name": "权限管理",
+    "url": "",
+    "icon": "el-icon-location",
+    "isShow": 0,
+    "children": [
+    {
+    "id": "b103_01",
+    "name": "组织架构",
+    "url": "/systemHome",
+    "isShow": 0,
+    "listName": [
+    "orgStructure"
+    ]
+    },
+    {
+    "id": "b103_03",
+    "name": "角色管理",
+    "url": "/systemHome/roleManagement",
+    "isShow": 0,
+    "listName": [
+    "roleManagement"
+    ]
+    },
+    {
+    "id": "b103_02",
+    "name": "用户管理",
+    "url": "/systemHome/userManagement",
+    "isShow": 0,
+    "listName": [
+    "userManagement"
+    ]
+    }
+    ]
+    }
+
+    ]
+    }
