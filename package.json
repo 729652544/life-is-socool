@@ -20,7 +20,7 @@
     "echarts": "^4.1.0",
     "element-ui": "~2.8.2",
     "eslint": "^5.15.3",
-    "jquery": "^2.2.4",
+    "jquery": "^3.5.0",
     "jspdf": "^1.5.3",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
