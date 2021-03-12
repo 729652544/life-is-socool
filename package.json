@@ -21,7 +21,7 @@
     "element-ui": "~2.8.2",
     "eslint": "^5.15.3",
     "jquery": "^2.2.4",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "mockjs": "^1.0.1-beta3",
